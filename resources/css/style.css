@@ -4,6 +4,17 @@ body {
   margin: 0 auto;
 }
 
+.container h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.container h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 .navbar .nav li a {
   font-size: 1.1rem;
   font-weight: bold;
@@ -45,6 +56,8 @@ body {
 .jumbotron-bike p {
   font-size: 1.5rem;
   width: 51.3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {
@@ -52,11 +65,59 @@ body {
   font-size: 1.5rem;
   background-color: #399bd1;
   padding: 1.3rem 0;
-  margin-top: 2.8rem;
-  margin-bottom: 11.85rem;
+  margin: 2.8rem auto 11.85rem auto;
 }
 
 .image-container img {
   width: 100%;
   opacity: 0.7;
+  margin-top: 20px;
+}
+
+.col-lg-4, .col-sm-12 {
+  margin-bottom: 5.85rem;
+}
+
+.color {
+  color: #399bd1;
+}
+
+.list {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.footer p {
+  width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .strong {
+  width: 100%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 5.2rem;
+  padding-bottom: 1.4rem;
+}
+
+.footer .btn {
+  margin-bottom: 5.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron-bike h1 {
+    font-size: 5.7rem;
+  }
+  .jumbotron-bike p {
+    width: 100%;
+  }
+  .footer p {
+    width: 100%;
+  }
 }
